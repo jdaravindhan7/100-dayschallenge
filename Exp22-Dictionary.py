@@ -1,0 +1,9 @@
+a={"name":"ragul","age":24,"branch":"cse"}
+print(a)
+a["age"]=18
+a.update({"age":19})
+print(a)
+a.popitem()
+print(a)
+a.update({'year':3})
+print(a)
